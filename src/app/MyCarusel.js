@@ -24,7 +24,7 @@ const MyCarusel = () => {
       <Carousel.Item interval={3000}>
         <img
           width="700px" height="500px"
-          src="https://myshop-django-postgre.onrender.com/media/Posted_images/joybos_trashcan.jpg"
+          src="https://myshop-django-postgre.onrender.com/media/joybos_trashcan.jpg"
           alt="{randOne.prod_name}"
         />
         <Carousel.Caption>
