@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const USER_ORDERS_URL = "http://127.0.0.1:8000/api/userorders/"
-const UPDATE_USER_URL = "http://127.0.0.1:8000/api/upduser/"
-const GET_USERS_URL = "http://127.0.0.1:8000/api/getusers/"
+const USER_ORDERS_URL = "https://myshop-django-postgre.onrender.com/api/userorders/"
+const UPDATE_USER_URL = "https://myshop-django-postgre.onrender.com/api/upduser/"
+const GET_USERS_URL = "https://myshop-django-postgre.onrender.com/api/getusers/"
 
 export function getUserOrders(token) {
     return new Promise((resolve,reject) =>
