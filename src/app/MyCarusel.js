@@ -47,7 +47,7 @@ const MyCarusel = () => {
       <Carousel.Item interval={3000}>
         <img
           width="700px" height="500px"
-          src="https://raw.githubusercontent.com/michael71161/myshop_backend/main/media/Posted_images/lighttower.jpg"
+          src="https://raw.githubusercontent.com/michael71161/myshop_backend/main/media/Posted_Images/lighttower.jpg"
           alt="Third slide"
         />
 
