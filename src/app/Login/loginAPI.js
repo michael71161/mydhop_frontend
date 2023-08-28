@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const REGISTER_URL = "http://127.0.0.1:8000/api/register/"
-const LOGIN_URL = "http://127.0.0.1:8000/api/signin/"
-const REFRESH_URL = "http://127.0.0.1:8000/api/token/refresh/"
-const LOGOUT_URL = "http://127.0.0.1:8000/api/logout/"
+const REGISTER_URL = "https://myshop-django-postgre.onrender.com/api/register/"
+const LOGIN_URL = "https://myshop-django-postgre.onrender.com/api/signin/"
+const REFRESH_URL = "https://myshop-django-postgre.onrender.com/api/token/refresh/"
+const LOGOUT_URL = "https://myshop-django-postgre.onrender.com/api/logout/"
 
 
 

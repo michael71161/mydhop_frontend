@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const PRODUCTS_GET = "http://127.0.0.1:8000/api/products/"
+const PRODUCTS_GET = "https://myshop-django-postgre.onrender.com/api/products/"
 
 export function getProd(id) {
     return new Promise((resolve,reject) =>

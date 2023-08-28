@@ -1,6 +1,6 @@
 import axios from 'axios'
-const ADD_ORDER_URL = "http://127.0.0.1:8000/api/addorder/"
-const ORDER_DETAILS_URL = "http://127.0.0.1:8000/api/orderdetails/"
+const ADD_ORDER_URL = "https://myshop-django-postgre.onrender.com/api/addorder/"
+const ORDER_DETAILS_URL = "https://myshop-django-postgre.onrender.com/api/orderdetails/"
 
 
 // async(2)
