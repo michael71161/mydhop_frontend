@@ -55,7 +55,7 @@ const Products = () => {
                 {prodsList.map(product => (
                  <Col key ={product._id}  sm={12} md={6} lg={4} xl={3}>
                     <Card className="my-3 p-3 rounded" style={{ width: '19rem' }}>
-                    <Card.Img variant="top" width="330px" height="370px" src={`https://myshop-django-postgre.onrender.com${product.image}`} />
+                    <Card.Img variant="top" width="330px" height="370px" src={`https://raw.githubusercontent.com/michael71161/myshop_backend/main/${product.image}`} />
                     <Card.Body>
                     <Card.Title>{product.prod_name}</Card.Title>
                     <Card.Text>
