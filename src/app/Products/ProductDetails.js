@@ -51,7 +51,7 @@ const ProductDetails = () => {
           <Button variant="outline-primary">Back to products</Button>
             </Link>
         </Card.Body>
-        <Card.Img variant="top"  width="330px" height="370px" src={`https://myshop-django-postgre.onrender.com${prod.image}`} alt={prod.prod_name} />
+        <Card.Img variant="top"  width="330px" height="370px" src={`https://raw.githubusercontent.com/michael71161/myshop_backend/main/${prod.image}`} alt={prod.prod_name} />
       </Card>
       </Row>
     </div>)}

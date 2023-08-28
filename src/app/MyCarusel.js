@@ -24,7 +24,7 @@ const MyCarusel = () => {
       <Carousel.Item interval={3000}>
         <img
           width="700px" height="500px"
-          src="https://myshop-django-postgre.onrender.com/media/joybos_trashcan.jpg"
+          src="https://raw.githubusercontent.com/michael71161/myshop_backend/main/media/joybos_trashcan.jpg"
           alt="{randOne.prod_name}"
         />
         <Carousel.Caption>
@@ -35,7 +35,7 @@ const MyCarusel = () => {
       <Carousel.Item interval={3000}>
         <img
           width="700px" height="500px"
-          src="https://myshop-django-postgre.onrender.com/media/Posted_images/tikom_robocleaner.jpg"
+          src="https://raw.githubusercontent.com/michael71161/myshop_backend/main/media/Posted_images/tikom_robocleaner.jpg"
           alt="Second slide"
         />
 
@@ -47,7 +47,7 @@ const MyCarusel = () => {
       <Carousel.Item interval={3000}>
         <img
           width="700px" height="500px"
-          src="https://myshop-django-postgre.onrender.com/media/Posted_images/lighttower.jpg"
+          src="https://raw.githubusercontent.com/michael71161/myshop_backend/main/media/Posted_images/lighttower.jpg"
           alt="Third slide"
         />
 
