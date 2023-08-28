@@ -35,7 +35,7 @@ const About = () => {
         <br/>
         <br/>
         <img width="270px" height="350px"
-        src='https://raw.githubusercontent.com/michael71161/myshop_backend/main/media/Posted_images/misha_programmer.jpeg'
+        src='https://raw.githubusercontent.com/michael71161/myshop_backend/main/media/Posted_Images/misha_programmer.jpeg'
         alt='me'/>
         
         <br/>
